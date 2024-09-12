@@ -15,6 +15,9 @@ class AppRouter
         return MaterialPageRoute(builder: (context) => Scaffold(),);
       case Routes.loginScreen:
         return MaterialPageRoute(builder: (context) => Scaffold(),);
+
+      case Routes.homeScreen:
+        return MaterialPageRoute(builder: (context) => Scaffold(),);
     }
 
   }
