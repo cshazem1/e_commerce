@@ -13,6 +13,11 @@ class AppRouter
     {
       case Routes.splashScreen2:
         return MaterialPageRoute(builder: (context) => Scaffold(),);
+
+      case Routes.homeScreen:
+        return MaterialPageRoute(builder: (context) => Scaffold(),);
+    }
+
     }
 
   }
@@ -21,4 +26,3 @@ class AppRouter
 
 
 
-}
